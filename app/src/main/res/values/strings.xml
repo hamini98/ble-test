@@ -1,0 +1,31 @@
+<resources>
+    <string name="title" translatable="false">App title</string>
+    <string name="app_name">ble test</string>
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="ble_supported">BLE is supported</string>
+    <string name="label_data" translatable="false">Data:</string>
+    <string name="label_device_address" translatable="false">Device address:</string>
+    <string name="label_state" translatable="false">State:</string>
+    <string name="no_data" translatable="false">No data</string>
+    <string name="connected" translatable="false">Connected</string>
+    <string name="disconnected" translatable="false">Disconnected</string>
+    <string name="title_devices" translatable="false">BLE Device Scan</string>
+    <string name="error_bluetooth_not_supported" translatable="false">Bluetooth not supported.</string>
+
+    <string name="unknown_device_name">Unknown device name</string>
+    <string name="unknown_characteristic" translatable="false">Unknown characteristic</string>
+    <string name="unknown_service" translatable="false">Unknown service</string>
+
+    <!-- Menu items -->
+    <string name="menu_connect">CONNECT</string>
+    <string name="menu_disconnect">DISCONNECT</string>
+    <string name="menu_scan">SCAN</string>
+    <string name="menu_stop">STOP</string>
+
+    <string name="ble_not_enabled">블루투스가 켜져있지 않습니다.</string>
+    <string name="ble_enabled">블루투스가 켜져있습니다.</string>
+    <string name="denied_location_permission">위치 권한을 허용해 주세요</string>
+
+    <string name="disconnected_gatt" translatable="false">GATT 서버와의 연결이 끊겼습니다.</string>
+    <string name="connected_gatt" translatable="false">GATT 서버에 연결되었습니다.</string>
+</resources>

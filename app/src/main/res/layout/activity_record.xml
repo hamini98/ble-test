@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.devicevalue.DeviceDetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:orientation="horizontal">
+
+        <!-- 날짜 선택 사용 확인(필요시 사용) -->
+
+        <!--
+        <CheckBox
+            android:id="@+id/datesearch_sample_cb_date"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+-->
+
+        <!-- 날짜 선택 -->
+
+        <TextView
+            android:id="@+id/datesearch_sample_tv_since"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="2021-01-25" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="~" />
+
+        <TextView
+            android:id="@+id/datesearch_sample_tv_till"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="2021-05-04" />
+
+        <!-- 검색 -->
+
+        <Button
+            android:id="@+id/datesearch_sample_btn_search"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="검색" />
+
+    </LinearLayout>
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="0.5" >
+    </com.github.mikephil.charting.charts.LineChart>
+
+
+
+    <ListView
+        android:id="@+id/device_value_list2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="0.5"
+        tools:listitem="@layout/listitem_device_value" />
+
+
+
+</LinearLayout>

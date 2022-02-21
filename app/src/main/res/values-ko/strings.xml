@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ble_not_supported">블루투스를 지원하지 않습니다.</string>
+    <string name="ble_supported">블루투스 지원 기기</string>
+    <string name="unknown_device_name">이름 없음</string>
+    <string name="app_name">블루투스 테스트</string>
+    <string name="ble_not_enabled">블루투스가 켜져있지 않습니다.</string>
+    <string name="ble_enabled">블루투스가 켜져있습니다.</string>
+    <string name="denied_location_permission">위치 권한을 허용해 주세요</string>
+
+    <!-- Menu items -->
+    <string name="menu_connect">연결</string>
+    <string name="menu_disconnect">연결 해제</string>
+    <string name="menu_scan">찾기</string>
+    <string name="menu_stop">중지</string>
+</resources>
